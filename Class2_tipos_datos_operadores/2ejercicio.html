@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <h1>Ejercicio 2</h1>
+    <h2>Solicitar una cadena de texto al ususario y mostrar en 
+        una caja de alerta el caracter que hay en la última 
+        posición de la cadena.
+    </h2>
+    <script>
+        var cadenaText = prompt('Introduzca una palabra o frase');
+        var ultimoCaracter;
+        var contador = cadenaText.length;
+
+        ultimoCaracter = cadenaText.charAt((contador - 1));
+        
+        alert(ultimoCaracter);
+
+    </script>
+</body>
+</html>
